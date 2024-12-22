@@ -4,6 +4,8 @@ import Banner from './components/Banner'
 import BothComponent from './components/BothComponent'
 import BothComponent2 from './components/BothComponent2'
 import Reviews from './components/Reviews'
+import Form from './components/Form'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
       <BothComponent/>
       <BothComponent2/>
       <Reviews/>
+      <Form/>
+      <Footer/>
     </>
   )
 }
