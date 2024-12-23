@@ -6,6 +6,10 @@
     margin: 0 auto;
     min-height: 600px;
   }
+
+  .overlay h2, .overlay .explore-btn {
+    color: white !important; /* Ensure text color is always white */
+  }
   
   .tourism-card {
     flex: 1;
@@ -58,14 +62,14 @@
     transition: all 0.3s ease;
   }
   
-  /* .tourism-card:hover .overlay {
+  .tourism-card:hover .overlay {
     background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0.6) 40%,
       rgba(0, 0, 0, 0.9) 100%
     );
-  } */
+  }
   
   h2 {
     color: white;
